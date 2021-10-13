@@ -1,0 +1,20 @@
+$(document).ready(function(){
+	 $('.more_logo_container').owlCarousel({
+        dots:false,
+        loop:true,
+        margin:10,
+        nav:false,
+        autoplay:true,
+        responsive:{
+            0:{
+                items:2
+            },
+            766:{
+                items:4
+            },
+            992:{
+                items:5
+            }
+        }
+    })
+})

@@ -1,0 +1,104 @@
+.main_r1_checkout{
+	padding:40px 0;
+	text-align: center;
+	background-color: #dddddd;
+
+}
+.main_r1_checkout p{ 
+	padding-top: 10px;
+	font-size: 16px;
+}
+#formDemo{
+	font-size: 16px;
+}
+#formDemo input{
+	width: 100%;
+	height: 30px;
+	border:1px solid #ccc;
+	padding: 5px 10px;
+	outline: none;
+	margin: 5px 0;
+}
+#formDemo label{
+	font-weight: 600;
+	padding: 20px 0 0px 0;
+	margin-bottom: 0 !important;
+}
+#formDemo .check_box{
+	margin: 10px 0 20px 0;
+	width: 15px;
+	height: 15px;
+}
+#formDemo textarea{
+	width: 100%;
+	height: 80px;
+	border:1px solid #ccc;
+}
+.order_container{
+	background-color: #dddddd;
+	padding: 15px 15px;
+}
+.order_container p{
+	margin-bottom: 0!important;
+}
+.order_block,
+.order{
+	padding: 15px 0;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #000000;
+}
+.order p{
+	font-weight: 600;
+}
+.order_total p{
+	font-size: 16px;
+}
+.order_block_end{
+	border:none;
+}
+.checkout_right h3{
+	padding-bottom: 30px;
+}
+.button_order{
+	width: 130px;
+	height: 36px;
+	border-radius: 25px;
+	text-align: center;
+	background-color: var(--colorspan--);
+	color: #ffffff;
+	border: 1px solid var(--colorspan--);
+	font-size: 15px;
+	margin-top:30px;
+	font-weight: 600;
+
+}
+.button_order:hover{
+	background-color: transparent;
+	color: var(--colorspan--);
+	transition: 0.5s;
+}
+.error{
+	color: red;
+	font-weight: 100 !important;
+	margin-top: -16px;
+}
+.form_validate_form{
+	margin-top: 80px;
+}
+@media screen and (min-width: 768px) and (max-width:992px){
+	.checkout_right{
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+}
+@media screen and (min-width: 320px) and (max-width:767px){
+	.checkout_right{
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+	.space{
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+}

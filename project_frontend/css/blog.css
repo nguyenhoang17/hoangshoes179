@@ -1,0 +1,153 @@
+.main_r1_blog{
+	padding:40px 0;
+	text-align: center;
+	background-color: #dddddd;
+
+}
+.main_r1_blog p{ 
+	padding-top: 10px;
+	font-size: 16px;
+}
+.main_content{
+	margin-top: 50px;
+}
+
+.main_content_container .rcc_left ul{
+	border-top: 1px solid #ccc;
+}
+
+.main_content_container .rcc_left ul li{
+	padding: 5px 0;
+}
+.main_content_container .rcc_left h5{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.rcclc_img{
+	text-align: center;
+	padding:0 5px !important;
+}
+.rcclc_img img{
+	width: 90%;
+}
+.rccl_center{
+	line-height: 8px;
+	margin-top: 30px;
+}
+.rccl_center strong{
+	font-size: 12px;
+	color:#000000;
+}
+.rcclc_text p{
+	margin-bottom: 0 !important;
+	padding: 5px 0;
+}
+.rcclc_text{
+	padding: 10px 0;
+}
+.c-l{
+		border-top: 1px solid #ccc;
+	}
+.rccl_bottom{
+	margin-top: 50px;
+}
+.rcclb_content{
+	padding: 10px 0;
+	border-top: 1px solid #ccc;
+}
+.rcclb_content button{
+	padding: 1px 5px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	margin-right: 5px;
+	margin-top: 5px;
+	background-color: transparent;
+}
+.rccr_img img{
+	width: 90%;
+}
+.rccr_text ul li{
+	padding: 10px 20px 10px 0;
+	display: inline-block;
+	font-weight: bold;
+}
+.rccr_text button{
+	width: 120px;
+	height: 36px;
+	border: 1px solid #000000;
+	background-color: #000000;
+	color: #ffffff;
+	border-radius: 25px;
+	font-size: 16px;
+}
+.rccr_text button:hover{
+	background-color: transparent;
+	color: #000000;
+	transition: 0.5s;
+}
+.rccr_container{
+	margin-bottom: 30px; 
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+.pagination{
+    justify-content: center;
+    padding: 5px 0;
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.main_content_container{
+		flex-direction: column-reverse;
+	}
+	.next_page{
+		padding: 0 0 !important;
+	}
+	.rcc_left{
+		margin-top: 50px;
+	}
+	.rcclc_text{
+		padding: 43px 10px !important;
+	}
+	.rcclb_content button{
+		padding: 2px 10px;
+	}
+	.rccl_bottom{
+		margin-top: 0;
+	}
+	.c-l{
+		border-top: 1px solid #ccc;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+	.main_content_container{
+		flex-direction: column-reverse;
+	}
+	.rccr_img img{
+		width: 100%;
+	}
+	.next_page{
+		padding: 0 0 !important;
+	}
+	.rcc_left{
+		margin-top: 50px;
+	}
+	.rccl_bottom{
+		margin-top: 0;
+	}
+	.rccr_text h3{
+		padding-top: 20px;
+	}
+}
+.main_content_container .rcc_left ul li:hover{
+	color: var(--colorspan--);
+	transition: 0.5s;
+}
+.rccr_text p{
+	text-align: justify;
+}
+.page-item.active .page-link{
+	background-color: var(--colorspan--);
+	border: var(--colorspan--);
+}
+.page-link{
+	color: var(--colorspan--);
+}

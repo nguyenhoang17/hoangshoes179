@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shop</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/shop.css">
+	<link rel="stylesheet" href="css/commonUse.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+	/>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row header">
+			<div class="row col-lg-12 px-lg-0 mx-lg-0 header__top d-md-none d-none d-lg-flex">
+				<div class="col-lg-8 px-lg-0 mx-lg-auto row header__top__container">
+					<div class="col-lg-6 px-lg-0 text-left">
+						<p>Free Delivery: Take advantage of our times to save event</p>
+					</div>
+					<div class="col-lg-6 px-lg-0 text-right">
+						<ul>
+							<li>Select Language <i class="fas fa-chevron-down"></i></li>
+							<li>Select Currency <i class="fas fa-chevron-down"></i></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-8 px-lg-0 my-lg-2 mx-lg-auto col-md-12 my-md-2 mx-md-auto col-12 my-2 mx-auto row header__center__container">
+				<div class="col-lg-3 px-lg-0 col-md-6 px-md-0 col-6 px-0 header__center__container__logo">
+					<a href="index.html"><img src="image/logo.png" alt=""></a>
+				</div>
+				<div class="col-lg-6 px-lg-0 d-lg-block d-md-none d-none header__center__container__menu">
+					<nav>
+						<ul class="">
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="shop.html" target="">SHOP <i class="fas fa-chevron-down"></i></a>
+								<ul>
+									<li><a href="shopdetail.html">Shop Detail</a></li>
+									<li><a href="cart.html">Cart</a></li>
+									<li><a href="checkout.html">Check Out</a></li>
+								</ul>
+							</li>
+							<li><a href="blog.html">BLOG <i class="fas fa-chevron-down"></i></a>
+								<ul>
+									<li><a href="blogdetail.html">Blog Detail</a></li>
+								</ul>
+							</li>
+							<li><a href="about.html">ABOUT</a></li>
+							<li><a href="q&a.html">Q&A</a></li>
+						</ul>
+						<div class="new new1">
+							<p>New <i class="fas fa-sort-down"></i></p>
+						</div>
+					</nav>
+				</div>
+				<div class="col-lg-3 px-lg-0 col-md-6 px-md-0 col-6 px-0 text-right header__center__container__icon">
+					<i class="fas fa-user-friends d-lg-inline-block d-md-none d-none"></i>
+					<div class="d-lg-inline-block d-md-none d-none fas_hear">
+						<i class="fas fa-heart"></i>
+						<div class="quantity qt1 d-lg-inline-block d-md-none d-none">9</div>
+					</div>
+					<div class="d-inline-block fas_shop">
+						<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+						<div class="quantity qt2">3</div>
+					</div>
+					<span class="bar"><i class="fas fa-bars d-lg-none d-md-inline-block d-inline-block"></i></span>
+				</div>
+			</div>
+			<div class="col-lg-8 px-lg-0 mx-lg-auto my-lg-4 col-md-12 mx-md-auto my-md-4 col-12 mx-auto my-4 row header__bottom__container">
+				<div class="col-lg-3 pl-lg-0 col-md-12 px-md-0 col-12 px-0 header__bottom__container_left">
+					<button><span class="list_category_item mr-lg-1 mr-md-1 mr-1"><i class="fas fa-align-left"></i></span> CATEGORIES</button>
+					<nav class="list_category">
+						<ul class="border border-top-0">
+							<li><a href="">Search terms</a></li>
+							<li><a href="">Advanced Search</a></li>
+							<li><a href="">Help & Faq</a></li>
+							<li><a href="">Store Location</a></li>
+							<li><a href="">Orders & Returns</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-lg-6 d-lg-block d-md-none d-none header__bottom__container_center">
+					<div class="search_container">
+						<input type="text" placeholder="Search product...">
+						<span><button><i class="fas fa-search"></i></button></span>
+					</div>
+				</div>
+				<div class="col-lg-3 pr-lg-0 d-md-none d-none d-lg-inline-block text-right header__bottom__container_right">
+					<p>Call Us: <strong>0395515962</strong></p>
+				</div>
+			</div>
+			<div class="d-lg-none menu_responsive">
+				<div class="menu__responsive__container animate__animated">
+					<span class="close"><i class="fas fa-times d-lg-none d-md-inline-block"></i></span>
+					<ul class="ul_select_res">
+						<li>Select Language <i class="fas fa-chevron-down"></i></li>
+						<li>Select Currency <i class="fas fa-chevron-down"></i></li>
+					</ul>
+					<div class="menu_res_btn">
+						<input type="text" placeholder="Search our store">
+						<button><i class="fas fa-search"></i></button>
+					</div>
+					<div class="icon_top_res">
+						<i class="fas fa-user-friends"></i>
+						<div class="d-inline-block fas_hear_res">
+						<i class="fas fa-heart"></i>
+						<div class="quantity_res qt1_res d-inline-block">9</div>
+						</div>
+						<div class="d-inline-block fas_shop_res">
+							<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+						<div class="quantity_res qt2_res">3</div>
+						</div>
+					</div>
+					<nav>
+						<ul class="">
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="shop.html">SHOP</a><span class="plus"><i class="fas fa-plus"></i></span><span class="minus"><i class="fas fa-minus"></i></span>
+								<ul class="ul_res2">
+									<li><a href="shopdetail.html">Shop Detail</a></li>
+									<li><a href="cart.html">Cart</a></li>
+									<li><a href="checkout.html">Check Out</a></li>
+								</ul>
+							</li>
+							<li><a href="blog.html">BLOG</a><span class="plus"><i class="fas fa-plus"></i></span><span class="minus"><i class="fas fa-minus"></i></span>
+								<ul class="ul_res2">
+									<li><a href="blogdetail.html">Blog Detail</a></li>
+								</ul>
+							</li>
+							<li><a href="about.html">ABOUT</a></li>
+							<li><a href="q&a.html">Q&A</a></li>
+						</ul>
+					</nav>
+					<div class="icon_bottom_res">
+						<div><a href="https://www.facebook.com/profile.php?id=100028911138578"><i class="fab fa-facebook-f"></i></a></div>
+						<div><i class="fab fa-twitter"></i></div>
+						<div><i class="fab fa-youtube"></i></div>
+						<div><i class="fab fa-google-plus-g"></i></div>
+						<div><i class="fab fa-instagram"></i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row main">
+			<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 px-0 mx-auto text-center main_row1">
+				<p>Home > Shop</p>
+			</div>
+			<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 px-0 mx-auto main_row2">
+				<div class="col-lg-8 px-lg-5 mx-lg-auto col-md-12 px-md-5 mx-md-auto col-12 px-2 mx-auto mr2_container">
+					<div class="col-lg-6 px-lg-0 col-md-6 px-md-0 col-6 px-0">
+						<em>20% OFF</em>
+						<h1>ALL NIKE SHOES</h1>
+						<a href="cart.html"><p>BUY NOW</p></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 mx-md-auto col-12 mx-auto row bar_shop" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+				<div class="col-lg-8 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 px-0 mx-auto row bar_shop_container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+					<div class="col-lg-3 px-lg-0 mx-auto col-md-3 px-md-0 col-12 px-12 bsc_left " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+						<span class="list_bar"><i class="fas fa-bars"></i></span>
+						<span class="list_ol"><i class="fas fa-list-ol"></i></span>
+					</div>
+					<div class="col-lg-6 px-lg-0 mx-auto col-md-6 px-md-0 mx-auto col-12 px-0 mx-auto text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+						<label for="cars">Choose a car:</label>
+
+						<select id="cars">
+							<option value="Gucci">Gucci</option>
+							<option value="Adidas">Adidas</option>
+							<option value="Vans">Vans</option>
+							<option value="Nike" selected>Nike</option>
+						</select>
+					</div>
+					<div class="col-lg-3 px-lg-0 mx-auto col-md-3 px-md-0 col-12 px-0 mx-auto text-right" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+						<p>Showing 1- 9 of 12 result</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 px-0 mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+				<div class="col-lg-8 px-lg-0 mx-lg-auto col-md-12 mx-md-auto col-12 mx-auto row list_shop list_shop1 animate__animated animate__zoomIn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+					<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 px-0 mx-auto row tcbt" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+						<div class=" text-center tcbt_item tcbt_item1 item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<a href="shopdetail.html"><img src="image/anh18.jpg" alt=""></a>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<a href="shopdetail.html"><p>Nike Shoes</p></a>
+							<a href="shopdetail.html"><p class="price">24.00$<span> 30.00$</span></p></a>
+							<button>-20%</button>
+							<div class="tcbt_item_icon">
+								<a href="cart.html"><i class="fas fa-cart-plus"></i></a>
+								<i class="fas fa-heart"></i>
+								<a href="shopdetail.html"><i class="fas fa-eye"></i></a>
+							</div>
+						</div>
+						<div class=" text-center tcbt_item item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<a href="shopdetail.html"><img src="image/anh19.jpg" alt=""></a>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<a href="shopdetail.html"><p>AP_bounce Shoes</p></a>
+							<a href="shopdetail.html"><p class="price">24.00$<span> 30.00$</span></p></a>
+							<button>-20%</button>
+							<div class="tcbt_item_icon">
+								<a href="cart.html"><i class="fas fa-cart-plus"></i></a>
+								<i class="fas fa-heart"></i>
+								<a href="shopdetail.html"><i class="fas fa-eye"></i></a>
+							</div>
+						</div>
+						<div class=" text-center tcbt_item item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<a href="shopdetail.html"><img src="image/anh20.jpg" alt=""></a>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<a href="shopdetail.html"><p>Gucci Shoes</p></a>
+							<a href="shopdetail.html"><p class="price">24.00$<span> 30.00$</span></p></a>
+							<button>-20%</button>
+							<div class="tcbt_item_icon">
+								<a href="cart.html"><i class="fas fa-cart-plus"></i></a>
+								<i class="fas fa-heart"></i>
+								<a href="shopdetail.html"><i class="fas fa-eye"></i></a>
+							</div>
+						</div>
+						<div class=" text-center tcbt_item tcbt_item4 item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<a href="shopdetail.html"><img src="image/anh22.jpg" alt=""></a>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<a href="shopdetail.html"><p>Ultra Boost Shoes</p></a>
+							<a href="shopdetail.html"><p class="price">24.00$<span> 30.00$</span></p></a>
+							<button>-20%</button>
+							<div class="tcbt_item_icon">
+								<a href="cart.html"><i class="fas fa-cart-plus"></i></a>
+								<i class="fas fa-heart"></i>
+								<a href="shopdetail.html"><i class="fas fa-eye"></i></a>
+							</div>
+						</div>
+						<div class=" text-center tcbt_item tcbt_item1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<a href="shopdetail.html"><img src="image/anh23.jpg" alt=""></a>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<a href="shopdetail.html"><p>MaCQ Da Shoes</p></a>
+							<a href="shopdetail.html"><p class="price">24.00$<span> 30.00$</span></p></a>
+							<button>-20%</button>
+							<div class="tcbt_item_icon">
+								<a href="cart.html"><i class="fas fa-cart-plus"></i></a>
+								<i class="fas fa-heart"></i>
+								<a href="shopdetail.html"><i class="fas fa-eye"></i></a>
+							</div>
+						</div>
+						<div class=" text-center tcbt_item " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<a href="shopdetail.html"><img src="image/anh24.jpg" alt=""></a>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<a href="shopdetail.html"><p>Nike Jordan Shoes</p></a>
+							<a href="shopdetail.html"><p class="price">24.00$<span> 30.00$</span></p></a>
+							<button>-20%</button>
+							<div class="tcbt_item_icon">
+								<a href="cart.html"><i class="fas fa-cart-plus"></i></a>
+								<i class="fas fa-heart"></i>
+								<a href="shopdetail.html"><i class="fas fa-eye"></i></a>
+							</div>
+						</div>
+						<div class=" text-center tcbt_item " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<a href="shopdetail.html"><img src="image/anh25.jpg" alt=""></a>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<a href="shopdetail.html"><p>Balenca Shoes</p></a>
+							<a href="shopdetail.html"><p class="price">24.00$<span> 30.00$</span></p></a>
+							<button>-20%</button>
+							<div class="tcbt_item_icon">
+								<a href="cart.html"><i class="fas fa-cart-plus"></i></a>
+								<i class="fas fa-heart"></i>
+								<a href="shopdetail.html"><i class="fas fa-eye"></i></a>
+							</div>
+						</div>
+						<div class=" text-center tcbt_item tcbt_item4 " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<a href="shopdetail.html"><img src="image/anh26.jpg" alt=""></a>
+						<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<a href="shopdetail.html"><p>Conver.se Shoes</p></a>
+							<a href="shopdetail.html"><p class="price">24.00$<span> 30.00$</span></p></a>
+							<button>-20%</button>
+							<div class="tcbt_item_icon">
+								<a href="cart.html"><i class="fas fa-cart-plus"></i></a>
+								<i class="fas fa-heart"></i>
+								<a href="shopdetail.html"><i class="fas fa-eye"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-8 px-lg-0 mx-lg-auto col-md-12 mx-md-auto col-12 mx-auto row list_shop list_shop2 animate__animated animate__zoomIn">
+					<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 mx-auto row list_shop2_item">
+						<div class="col-lg-4 px-lg-0 mx-lg-auto col-md-4 px-md-0 mx-md-auto col-12 mx-auto">
+							<img src="image/anh1shop.webp" alt="">
+							<button class="sale">-20%</button>
+						</div>
+						<div class="col-lg-8 mx-lg-auto col-md-8 mx-md-auto col-12 mx-auto">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<h6>
+								Nike Shoes
+							</h6>
+							<p class="list_price">55.00$<em>70.00$</em></p>
+							<p class="ls_text">Originating from the running passion of the founders, former athletics coach Bill Bowerman and student Phil Knight, it is not difficult to understand that the Nike brand is known for its technical advantages to support athletics. Nike's passion for sports can be seen through the distinctive style that the company aims to be bold, eager to conquer and determined in competition. </p>
+							<a href="cart.html"><button class="add_to_cart">Add to cart</button></a> <button class="btn_bottom"><i class="fas fa-sliders-h"></i></button><button class="btn_bottom"><i class="far fa-heart"></i></button>
+						</div>
+					</div>
+					<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 mx-auto row list_shop2_item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+						<div class="col-lg-4 px-lg-0 mx-lg-auto col-md-4 px-md-0 mx-md-auto col-12 mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<img src="image/anh2shop.jpg" alt="">
+							<button class="sale">-20%</button>
+						</div>
+						<div class="col-lg-8 mx-lg-auto col-md-8 mx-md-auto col-12 mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<h6>
+								Nike Shoes
+							</h6>
+							<p class="list_price">55.00$<em>70.00$</em></p>
+							<p class="ls_text">Originating from the running passion of the founders, former athletics coach Bill Bowerman and student Phil Knight, it is not difficult to understand that the Nike brand is known for its technical advantages to support athletics. Nike's passion for sports can be seen through the distinctive style that the company aims to be bold, eager to conquer and determined in competition. </p>
+							<a href="cart.html"><button class="add_to_cart">Add to cart</button></a> <button class="btn_bottom"><i class="fas fa-sliders-h"></i></button><button class="btn_bottom"><i class="far fa-heart"></i></button>
+						</div>
+					</div>
+					<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 mx-auto row list_shop2_item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+						<div class="col-lg-4 px-lg-0 mx-lg-auto col-md-4 px-md-0 mx-md-auto col-12 mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<img src="image/anh3shop.jpg" alt="">
+							<button class="sale">-20%</button>
+						</div>
+						<div class="col-lg-8 mx-lg-auto col-md-8 mx-md-auto col-12 mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<h6>
+								Nike Shoes
+							</h6>
+							<p class="list_price">55.00$<em>70.00$</em></p>
+							<p class="ls_text">Originating from the running passion of the founders, former athletics coach Bill Bowerman and student Phil Knight, it is not difficult to understand that the Nike brand is known for its technical advantages to support athletics. Nike's passion for sports can be seen through the distinctive style that the company aims to be bold, eager to conquer and determined in competition. </p>
+							<a href="cart.html"><button class="add_to_cart">Add to cart</button></a> <button class="btn_bottom"><i class="fas fa-sliders-h"></i></button><button class="btn_bottom"><i class="far fa-heart"></i></button>
+						</div>
+					</div>
+					<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 mx-auto row list_shop2_item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+						<div class="col-lg-4 px-lg-0 mx-lg-auto col-md-4 px-md-0 mx-md-auto col-12 mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<img src="image/anh4shop.jpg" alt="">
+							<button class="sale">-20%</button>
+						</div>
+						<div class="col-lg-8 mx-lg-auto col-md-8 mx-md-auto col-12 mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<h6>
+								Nice Shoes
+							</h6>
+							<p class="list_price">55.00$<em>70.00$</em></p>
+							<p class="ls_text">Originating from the running passion of the founders, former athletics coach Bill Bowerman and student Phil Knight, it is not difficult to understand that the Nike brand is known for its technical advantages to support athletics. Nike's passion for sports can be seen through the distinctive style that the company aims to be bold, eager to conquer and determined in competition. </p>
+							<a href="cart.html"><button class="add_to_cart">Add to cart</button></a> <button class="btn_bottom"><i class="fas fa-sliders-h"></i></button><button class="btn_bottom"><i class="far fa-heart"></i></button>
+						</div>
+					</div>
+					<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 mx-auto row list_shop2_item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+						<div class="col-lg-4 px-lg-0 mx-lg-auto col-md-4 px-md-0 mx-md-auto col-12 mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<img src="image/anh5shop.jpg" alt="">
+							<button class="sale">-20%</button>
+						</div>
+						<div class="col-lg-8 mx-lg-auto col-md-8 mx-md-auto col-12 mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<h6>
+								Nike Shoes
+							</h6>
+							<p class="list_price">55.00$<em>70.00$</em></p>
+							<p class="ls_text">Originating from the running passion of the founders, former athletics coach Bill Bowerman and student Phil Knight, it is not difficult to understand that the Nike brand is known for its technical advantages to support athletics. Nike's passion for sports can be seen through the distinctive style that the company aims to be bold, eager to conquer and determined in competition. </p>
+							<a href="cart.html"><button class="add_to_cart">Add to cart</button></a> <button class="btn_bottom"><i class="fas fa-sliders-h"></i></button><button class="btn_bottom"><i class="far fa-heart"></i></button>
+						</div>
+					</div>
+					<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 mx-auto row list_shop2_item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+						<div class="col-lg-4 px-lg-0 mx-lg-auto col-md-4 px-md-0 mx-md-auto col-12 mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<img src="image/anh6shop.jpg" alt="">
+							<button class="sale">-20%</button>
+						</div>
+						<div class="col-lg-8 mx-lg-auto col-md-8 mx-md-auto col-12 mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<h6>
+								Nike Shoes
+							</h6>
+							<p class="list_price">55.00$<em>70.00$</em></p>
+							<p class="ls_text">Originating from the running passion of the founders, former athletics coach Bill Bowerman and student Phil Knight, it is not difficult to understand that the Nike brand is known for its technical advantages to support athletics. Nike's passion for sports can be seen through the distinctive style that the company aims to be bold, eager to conquer and determined in competition. </p>
+							<a href="cart.html"><button class="add_to_cart">Add to cart</button></a> <button class="btn_bottom"><i class="fas fa-sliders-h"></i></button><button class="btn_bottom"><i class="far fa-heart"></i></button>
+						</div>
+					</div>
+					<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12  mx-auto row list_shop2_item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+						<div class="col-lg-4 px-lg-0 mx-lg-auto col-md-4 px-md-0 mx-md-auto col-12 mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<img src="image/anh7shop.jpg" alt="">
+							<button class="sale">-20%</button>
+						</div>
+						<div class="col-lg-8 mx-lg-auto col-md-8 mx-md-auto col-12 mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<h6>
+								Nike Shoes
+							</h6>
+							<p class="list_price">55.00$<em>70.00$</em></p>
+							<p class="ls_text">Originating from the running passion of the founders, former athletics coach Bill Bowerman and student Phil Knight, it is not difficult to understand that the Nike brand is known for its technical advantages to support athletics. Nike's passion for sports can be seen through the distinctive style that the company aims to be bold, eager to conquer and determined in competition. </p>
+							<a href="cart.html"><button class="add_to_cart">Add to cart</button></a> <button class="btn_bottom"><i class="fas fa-sliders-h"></i></button><button class="btn_bottom"><i class="far fa-heart"></i></button>
+						</div>
+					</div>
+					<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 mx-auto  row list_shop2_item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+						<div class="col-lg-4 px-lg-0 mx-lg-auto col-md-4 px-md-0 mx-md-auto col-12 mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<img src="image/anh8shop.jpg" alt="">
+							<button class="sale">-20%</button>
+						</div>
+						<div class="col-lg-8 mx-lg-auto col-md-8 mx-md-auto col-12 mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<h6>
+								Nike Shoes
+							</h6>
+							<p class="list_price">55.00$<em>70.00$</em></p>
+							<p class="ls_text">Originating from the running passion of the founders, former athletics coach Bill Bowerman and student Phil Knight, it is not difficult to understand that the Nike brand is known for its technical advantages to support athletics. Nike's passion for sports can be seen through the distinctive style that the company aims to be bold, eager to conquer and determined in competition. </p>
+							<a href="cart.html"><button class="add_to_cart">Add to cart</button></a> <button class="btn_bottom"><i class="fas fa-sliders-h"></i></button><button class="btn_bottom"><i class="far fa-heart"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12 col-md-12 col-12 px-0 mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+				<div class="col-lg-8 px-lg-0 col-md-12 col-12 mx-auto next_page " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+					<nav aria-label="...">
+						<ul class="pagination">
+							<li class="page-item disabled">
+								<a class="page-link" href="#" tabindex="-1">Prev</a>
+							</li>
+							<li class="page-item active"><a class="page-link" href="#">1</a></li>
+							<li class="page-item ">
+								<a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="page-item"><a class="page-link" href="#">3</a></li>
+							<li class="page-item">
+								<a class="page-link" href="#">Next</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		<div class="row" id="footer" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+			<div class="col-lg-8 px-lg-0 mx-lg-auto col-md-12 mx-auto col-12 mx-md-auto row footer__top">
+				<div class="col-lg-4 px-lg-0 col-md-5 px-lg-0 col-12 px-0">
+					<a href="index.html"><img src="image/logo.png" alt=""></a>
+					<ul>
+						<li><i class="fas fa-home"></i> TrauQuy street, Gia Lam, Ha Noi</li>
+						<li><i class="fas fa-phone-alt"></i> +0395515962</li>
+						<li><i class="fas fa-envelope"></i> hoangga179tb@gmail.com</li>
+					</ul>
+					<div class="footer__top_icon">
+						<i class="fab fa-facebook-f"></i>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-youtube"></i>
+						<i class="fab fa-google-plus-g"></i>
+					</div>
+				</div>
+				<div class="col-lg-2 px-lg-0 col-md-3 px-md-0 col-12 px-0">
+					<h6>INFORMATION</h6>
+					<ul>
+						<li>Information</li>
+						<li>Advanced Search</li>
+						<li>Helps & Faq</li>
+						<li>Store Location</li>
+						<li>Orders & Returns</li>
+						<li>Deliveries</li>
+						<li>Refund & Returns</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 px-lg-0 col-md-3 px-md-0 col-12 px-0">
+					<h6>OUR COMPANY</h6>
+					<ul>
+						<li>Delivery</li>
+						<li>Legan Notice</li>
+						<li>Sitemap</li>
+						<li>Secure Payment</li>
+						<li>Blog</li>
+						<li>About Us</li>
+						<li>Carrers</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 px-lg-0 col-md-3 mt-md-4 mt-lg-0 col-12 px-0">
+					<h6>MY ACCOUNT</h6>
+					<ul>
+						<li>Information</li>
+						<li>Advanced Search</li>
+						<li>Helps & Faq</li>
+						<li>Store Location</li>
+						<li>Orders & Returns</li>
+						<li>Deliveries</li>
+						<li>Refund & Returns</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 px-lg-0 col-md-3 px-md-0 mt-md-4 mt-lg-0 col-12 px-0">
+					<h6>OPENING TIME</h6>
+					<ul>
+						<li>Mon-Fri: 8-10PM</li>
+						<li>Sat: 9-8PM</li>
+						<li>Suns: 14-18PM</li>
+						<li>Mon-Fri: 8-10PM</li>
+						<li>We Work Holidays</li>
+						<li><b>Download App</b></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-8 px-lg-0 mx-lg-auto col-md-12 mx-md-auto col-12 mx-auto row footer__bottom">
+				<div class="col-lg-6 px-lg-0 col-md-6 col-12">
+					<p>Make by <i class="far fa-copyright"></i> <span>HoangApple</span>. All rights Reserved</p>
+				</div>
+				<div class="col-lg-6 px-lg-0 col-md-6 col-12 text-right text_right_footer">
+					<img src="image/payment1.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="back-to-top">
+		<i class="fas fa-chevron-up"></i>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<script src="js/commonUse.js"></script>
+	<script src="js/shop.js"></script>
+</body>
+</html>

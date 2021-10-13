@@ -1,0 +1,232 @@
+.main_r1_blogdetail{
+	padding:40px 0;
+	text-align: center;
+	background-color: #dddddd;
+
+}
+.main_r1_blogdetail p{ 
+	padding-top: 10px;
+	font-size: 16px;
+}
+.main_content{
+	margin-top: 50px;
+}
+
+.main_content_container .rcc_left ul{
+	border-top: 1px solid #ccc;
+}
+
+.main_content_container .rcc_left ul li{
+	padding: 5px 0;
+}
+.main_content_container .rcc_left ul li:hover{
+	color: var(--colorspan--);
+}
+.main_content_container .rcc_left h5{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.rcclc_img{
+	text-align: center;
+	padding:0 5px !important;
+}
+.rcclc_img img{
+	width: 90%;
+}
+.rccl_center{
+	line-height: 8px;
+	margin-top: 30px;
+}
+.rccl_center strong{
+	font-size: 12px;
+	color:#000000;
+}
+.rcclc_text p{
+	margin-bottom: 0 !important;
+	padding: 5px 0;
+}
+.rcclc_text{
+	padding: 10px 0;
+}
+.c-l{
+	border-top: 1px solid #ccc;
+}
+.rccl_bottom{
+	margin-top: 50px;
+}
+.rcclb_content{
+	padding: 10px 0;
+	border-top: 1px solid #ccc;
+}
+.rcclb_content button{
+	padding: 1px 5px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	margin-right: 5px;
+	margin-top: 5px;
+	background-color: transparent;
+}
+.rcc_right img{
+	width: 100%;
+}
+.rcc_right h3{
+	padding-top: 20px;
+}
+.rcc_right ul li{
+	display: inline-block;
+	padding-right: 20px;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+.rccr_textnote{
+	margin-left: 30px;
+	padding: 8px 15px;
+	background-color: #ccc;
+	border-left: 2px solid var(--colorspan--);
+	margin-bottom: 16px;
+}
+.rccr_textnote p{
+	margin-bottom: 0!important;
+}
+.border_tag{
+	border:1px solid #ccc;
+	border-radius: 5px;
+	padding: 5px 0;
+}
+.border_tag p{
+	margin-bottom: 0!important;
+}
+.border_tag p i{
+	color: #aaa;
+	padding: 0 2px;
+}
+.h6_comment{
+	margin-top: 50px;
+	font-weight: bold;
+}
+.comment_form{
+	margin-top: 20px;
+	padding: 10px 0;
+	border:1px solid #ccc;
+}
+.comment_form_container p{
+	margin-bottom: 0px !important;
+}
+.comment_form_container img{
+	width: 100%;
+}
+.rep_comment{
+	float: right;
+}
+.coment_text{
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+}
+.comment_form_container_rep{
+	margin-top: 20px;
+}
+.comment_form_container2{
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #ccc;
+}
+.vali_form{
+	font-size: 16px;
+}
+.vali_form input {
+	border: 1px solid #ddd;
+	width: 100%;
+	padding: 15px 8px;
+	outline: none;
+	height: 20px;
+}
+.vali_form textarea{
+	width: 100%;
+	height: 100px;
+	border: 1px solid #ddd;
+}
+.vali_form button{
+	font-size: 15px;
+	font-weight: 600;
+	background-color: #000000;
+	color: #ffffff;
+	width: 150px;
+	height: 36px;
+	border :1px solid #000000;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+.vali_form button:hover{
+	background-color: transparent;
+	color: #000000;
+	transition: 0.5s;
+}
+.vali_form label{
+	font-weight: 600;
+	padding: 10px 0 5px 0;
+}
+.main_content_container{
+	padding-bottom: 80px;
+	border-bottom: 1px solid #eee;
+}
+.error{
+	color: red;
+	font-weight: 100 !important;
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.main_content_container{
+		flex-direction: column-reverse;
+	}
+	.rcc_left{
+		margin-top: 80px;
+	}
+	.rcclc_text{
+		padding-top: 42px;
+		padding-left: 10px !important;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+	.main_content_container{
+		flex-direction: column-reverse;
+	}
+	.share{
+		text-align: left !important;
+	}
+	.comment_form_container{
+		flex-direction: column;
+	}
+	.comment_content{
+		padding-left:0 !important;
+		padding-right: 0!important;
+	}
+	.comment_form_container_rep .text_comment_rep{
+		border-bottom: 1px solid #ddd;
+		padding-bottom: 10px;
+	}
+	.comment_form_container2{
+		border:none;
+	}
+	.vali_form{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	#formDemo{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.vali_form button{
+		margin-left: 15px !important;
+	}
+	.rcc_left{
+		margin-top: 80px;
+	}
+	.comment_form_container img{
+		margin-bottom: 10px;
+	}
+}
+.rcc_right p{
+	text-align: justify;
+}
+.text-right p{
+	text-align: right !important;
+}

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cart</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/commonUse.css">
+	<link rel="stylesheet" href="css/cart.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+	/>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row header">
+			<div class="row col-lg-12 px-lg-0 mx-lg-0 header__top d-md-none d-none d-lg-flex">
+				<div class="col-lg-8 px-lg-0 mx-lg-auto row header__top__container">
+					<div class="col-lg-6 px-lg-0 text-left">
+						<p>Free Delivery: Take advantage of our times to save event</p>
+					</div>
+					<div class="col-lg-6 px-lg-0 text-right">
+						<ul>
+							<li>Select Language <i class="fas fa-chevron-down"></i></li>
+							<li>Select Currency <i class="fas fa-chevron-down"></i></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-8 px-lg-0 my-lg-2 mx-lg-auto col-md-12 my-md-2 mx-md-auto col-12 my-2 mx-auto row header__center__container">
+				<div class="col-lg-3 px-lg-0 col-md-6 px-md-0 col-6 px-0 header__center__container__logo">
+					<a href="index.html"><img src="image/logo.png" alt=""></a>
+				</div>
+				<div class="col-lg-6 px-lg-0 d-lg-block d-md-none d-none header__center__container__menu">
+					<nav>
+						<ul class="">
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="shop.html" target="">SHOP <i class="fas fa-chevron-down"></i></a>
+								<ul>
+									<li><a href="shopdetail.html">Shop Detail</a></li>
+									<li><a href="cart.html">Cart</a></li>
+									<li><a href="checkout.html">Check Out</a></li>
+								</ul>
+							</li>
+							<li><a href="blog.html">BLOG <i class="fas fa-chevron-down"></i></a>
+								<ul>
+									<li><a href="blogdetail.html">Blog Detail</a></li>
+								</ul>
+							</li>
+							<li><a href="about.html">ABOUT</a></li>
+							<li><a href="q&a.html">Q&A</a></li>
+						</ul>
+						<div class="new new1">
+							<p>New <i class="fas fa-sort-down"></i></p>
+						</div>
+					</nav>
+				</div>
+				<div class="col-lg-3 px-lg-0 col-md-6 px-md-0 col-6 px-0 text-right header__center__container__icon">
+					<i class="fas fa-user-friends d-lg-inline-block d-md-none d-none"></i>
+					<div class="d-lg-inline-block d-md-none d-none fas_hear">
+						<i class="fas fa-heart"></i>
+						<div class="quantity qt1 d-lg-inline-block d-md-none d-none">9</div>
+					</div>
+					<div class="d-inline-block fas_shop">
+						<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+						<div class="quantity qt2">3</div>
+					</div>
+					<span class="bar"><i class="fas fa-bars d-lg-none d-md-inline-block d-inline-block"></i></span>
+				</div>
+			</div>
+			<div class="col-lg-8 px-lg-0 mx-lg-auto my-lg-4 col-md-12 mx-md-auto my-md-4 col-12 mx-auto my-4 row header__bottom__container">
+				<div class="col-lg-3 pl-lg-0 col-md-12 px-md-0 col-12 px-0 header__bottom__container_left">
+					<button><span class="list_category_item mr-lg-1 mr-md-1 mr-1"><i class="fas fa-align-left"></i></span> CATEGORIES</button>
+					<nav class="list_category">
+						<ul class="border border-top-0">
+							<li><a href="">Search terms</a></li>
+							<li><a href="">Advanced Search</a></li>
+							<li><a href="">Help & Faq</a></li>
+							<li><a href="">Store Location</a></li>
+							<li><a href="">Orders & Returns</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-lg-6 d-lg-block d-md-none d-none header__bottom__container_center">
+					<div class="search_container">
+						<input type="text" placeholder="Search product...">
+						<span><button><i class="fas fa-search"></i></button></span>
+					</div>
+				</div>
+				<div class="col-lg-3 pr-lg-0 d-md-none d-none d-lg-inline-block text-right header__bottom__container_right">
+					<p>Call Us: <strong>0395515962</strong></p>
+				</div>
+			</div>
+			<div class="d-lg-none menu_responsive">
+				<div class="menu__responsive__container animate__animated">
+					<span class="close"><i class="fas fa-times d-lg-none d-md-inline-block"></i></span>
+					<ul class="ul_select_res">
+						<li>Select Language <i class="fas fa-chevron-down"></i></li>
+						<li>Select Currency <i class="fas fa-chevron-down"></i></li>
+					</ul>
+					<div class="menu_res_btn">
+						<input type="text" placeholder="Search our store">
+						<button><i class="fas fa-search"></i></button>
+					</div>
+					<div class="icon_top_res">
+						<i class="fas fa-user-friends"></i>
+						<div class="d-inline-block fas_hear_res">
+						<i class="fas fa-heart"></i>
+						<div class="quantity_res qt1_res d-inline-block">9</div>
+						</div>
+						<div class="d-inline-block fas_shop_res">
+							<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+						<div class="quantity_res qt2_res">3</div>
+						</div>
+					</div>
+					<nav>
+						<ul class="">
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="shop.html">SHOP</a><span class="plus"><i class="fas fa-plus"></i></span><span class="minus"><i class="fas fa-minus"></i></span>
+								<ul class="ul_res2">
+									<li><a href="shopdetail.html">Shop Detail</a></li>
+									<li><a href="cart.html">Cart</a></li>
+									<li><a href="checkout.html">Check Out</a></li>
+								</ul>
+							</li>
+							<li><a href="blog.html">BLOG</a><span class="plus"><i class="fas fa-plus"></i></span><span class="minus"><i class="fas fa-minus"></i></span>
+								<ul class="ul_res2">
+									<li><a href="blogdetail.html">Blog Detail</a></li>
+								</ul>
+							</li>
+							<li><a href="about.html">ABOUT</a></li>
+							<li><a href="q&a.html">Q&A</a></li>
+						</ul>
+					</nav>
+					<div class="icon_bottom_res">
+						<div><a href="https://www.facebook.com/profile.php?id=100028911138578"><i class="fab fa-facebook-f"></i></a></div>
+						<div><i class="fab fa-twitter"></i></div>
+						<div><i class="fab fa-youtube"></i></div>
+						<div><i class="fab fa-google-plus-g"></i></div>
+						<div><i class="fab fa-instagram"></i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row main">
+			<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 px-0 mx-auto main_r1_cart">
+				<p>Home > Cart</p>
+			</div>
+			<div class="col-lg-8 px-lg-0 col-md-12 col-12 mx-auto main_cartct">
+				<h3>Your Cart Items</h3>
+				<div class="a-d">
+					<div class="tblcc">
+						<div class="col-lg-12 px-lg-0 col-md-12 px-md-0 col-12 px-0 mx-auto row table_cart_container">
+							<div class="col-lg-12 px-lg-0 col-md-12 px-md-0 col-12 px-0 mx-auto row table_cart_title">
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<p><strong>IMAGE</strong></p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<p><strong>NAME</strong></p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<p><strong>UNTIL PRICE</strong></p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<p><strong>QTY</strong></p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<p><strong>SUBTOTAL</strong></p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<p><strong>ACTION</strong></p>
+								</div>
+							</div>
+							<div class="col-lg-12 px-lg-0 col-md-12 px-md-0 col-12 px-0 mx-auto row table_cart">
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<img src="image/anh10.jpg" alt="">
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<p>ADIDAS</p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<p>$60.00</p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<div class="quantity_product">
+										<input type="text" value="1">
+										<div class="cart_plus">+</div>
+										<div class="cart_minus">-</div>
+									</div>
+
+
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<p>$70.00</p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<span><i class="fas fa-pencil-alt"></i></span>
+									<span><i class="fas fa-times"></i></span>
+								</div>
+							</div>
+							<div class="col-lg-12 px-lg-0 col-md-12 px-md-0  mx-auto row table_cart">
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<img src="image/anh8.jpg" alt="">
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<p>VANS</p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<p>$60.00</p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<div class="quantity_product">
+										<input type="text" value="1">
+										<div class="cart_plus">+</div>
+										<div class="cart_minus">-</div>
+									</div>
+
+
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<p>$70.00</p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<span><i class="fas fa-pencil-alt"></i></span>
+									<span><i class="fas fa-times"></i></span>
+								</div>
+							</div>
+							<div class="col-lg-12 px-lg-0 col-md-12 px-md-0 col-12 px-0 mx-auto row table_cart">
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<img src="image/anh9.jpg" alt="">
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<p>NIKE</p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<p>$60.00</p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<div class="quantity_product">
+										<input type="text" value="1">
+										<div class="cart_plus">+</div>
+										<div class="cart_minus">-</div>
+									</div>
+
+
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<p>$70.00</p>
+								</div>
+								<div class="col-lg-2 col-md-2 col-2 mx-auto">
+									<span><i class="fas fa-pencil-alt"></i></span>
+									<span><i class="fas fa-times"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-12 px-lg-0 col-md-12 px-md-0 col-12 px-0 mx-auto row btn_cart" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+					<div class="col-lg-6 px-lg-0 col-md-6 px-md-0 col-12 px-0 mx-auto">
+						<a href="shop.html"><button class="btn_ctnsp"> Continue Shipping</button></a>
+					</div>
+					<div class="col-lg-6 px-lg-0 col-md-6 px-md-0 col-12 px-0 mx-auto">
+						<button class="btn_ctnsp btn_ctnsp2">Update cart</button>
+						<button class="btn_ctnsp btn_ctnsp3"> Clear Cart</button>
+					</div>
+				</div>
+				<div class="col-lg-12 px-lg-0 col-md-12 px-md-0 col-12 px-0 mx-auto row cartform" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+					<div class="col-lg-4 pl-lg-0 col-md-6 pl-md-0 col-12 estimate_ship">
+						<p><strong>ESTIMATE SHIPPING AND TAG</strong></p>
+						<p>Enter your destination to get a shippng estimate</p>
+						<form method="get" accept-charset="utf-8" id="cartform_left">
+							<fieldset>
+								<div>
+									<label>* Country</label>
+									<input list="ctry" name="country" id="" required>
+
+									<datalist id="ctry">
+										<option value="Viet Nam">Viet Nam</option>
+										<option value="American">American</option>
+										<option value="Lao"></option>
+										<option value="Campuchia"></option>
+										<option value="Paris"></option>
+									</datalist>
+								</div>
+								<div>
+									<label>* Region/State</label>
+									<input list="region" name="region" id="" required>
+
+									<datalist id="region">
+										<option value="Viet Nam">Viet Nam</option>
+										<option value="American">American</option>
+										<option value="Lao"></option>
+										<option value="Campuchia"></option>
+										<option value="Paris"></option>
+									</datalist>
+								</div>
+								<div>
+									<label>Zip/Postal Code</label>
+									<input type="text" name="zip" required>
+								</div>
+								<button type="submit">GET A QUOTE</button>
+							</fieldset>
+						</form>
+					</div>
+					<div class="col-lg-4 pl-lg-0 col-md-6 col-12 usecoupon">
+						<p><strong>USE COUPON CODE</strong></p>
+						<p>Enter your coupon code if you have one</p>
+						<form method="get" accept-charset="utf-8" id="cartform_center">
+							<fieldset>
+								<div>
+									<label>* Enter Coupon Code</label>
+									<input type="text" name="code" id="" required>
+								</div>
+								<button>Apply Coupon</button>
+							</fieldset>
+						</form>
+					</div>
+					<div class="col-lg-4 px-lg-0 col-md-6 px-md-0 col-12 px-0 cart_totalf">
+						<p><strong>CART TOTAL</strong></p>
+						<div class="total">
+							<p>Total Product Price</p>
+							<p><strong>$260.00</strong></p>
+
+						</div>
+						<p class="tts">Total Shippng</p>
+						<div class="total total2">
+							<div class="radio">
+								<input type="radio" name="abc" checked="">Standard
+							</div>
+							<p>$20.00</p>
+						</div>
+						<div class="total total2">
+							<div class="radio">
+								<input type="radio" name="abc">Express
+							</div>
+							<p>$30.00</p>
+						</div>
+						<div class="total">
+							<h6><strong>Grand Total</strong></h6>
+							<h6><strong>$260.00</strong></h6>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row" id="footer" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+			<div class="col-lg-8 px-lg-0 mx-lg-auto col-md-12 mx-auto col-12 mx-md-auto row footer__top">
+				<div class="col-lg-4 px-lg-0 col-md-5 px-lg-0 col-12 px-0">
+					<a href="index.html"><img src="image/logo.png" alt=""></a>
+					<ul>
+						<li><i class="fas fa-home"></i> TrauQuy street, Gia Lam, Ha Noi</li>
+						<li><i class="fas fa-phone-alt"></i> +0395515962</li>
+						<li><i class="fas fa-envelope"></i> hoangga179tb@gmail.com</li>
+					</ul>
+					<div class="footer__top_icon">
+						<i class="fab fa-facebook-f"></i>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-youtube"></i>
+						<i class="fab fa-google-plus-g"></i>
+					</div>
+				</div>
+				<div class="col-lg-2 px-lg-0 col-md-3 px-md-0 col-12 px-0">
+					<h6>INFORMATION</h6>
+					<ul>
+						<li>Information</li>
+						<li>Advanced Search</li>
+						<li>Helps & Faq</li>
+						<li>Store Location</li>
+						<li>Orders & Returns</li>
+						<li>Deliveries</li>
+						<li>Refund & Returns</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 px-lg-0 col-md-3 px-md-0 col-12 px-0">
+					<h6>OUR COMPANY</h6>
+					<ul>
+						<li>Delivery</li>
+						<li>Legan Notice</li>
+						<li>Sitemap</li>
+						<li>Secure Payment</li>
+						<li>Blog</li>
+						<li>About Us</li>
+						<li>Carrers</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 px-lg-0 col-md-3 mt-md-4 mt-lg-0 col-12 px-0">
+					<h6>MY ACCOUNT</h6>
+					<ul>
+						<li>Information</li>
+						<li>Advanced Search</li>
+						<li>Helps & Faq</li>
+						<li>Store Location</li>
+						<li>Orders & Returns</li>
+						<li>Deliveries</li>
+						<li>Refund & Returns</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 px-lg-0 col-md-3 px-md-0 mt-md-4 mt-lg-0 col-12 px-0">
+					<h6>OPENING TIME</h6>
+					<ul>
+						<li>Mon-Fri: 8-10PM</li>
+						<li>Sat: 9-8PM</li>
+						<li>Suns: 14-18PM</li>
+						<li>Mon-Fri: 8-10PM</li>
+						<li>We Work Holidays</li>
+						<li><b>Download App</b></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-8 px-lg-0 mx-lg-auto col-md-12 mx-md-auto col-12 mx-auto row footer__bottom">
+				<div class="col-lg-6 px-lg-0 col-md-6 col-12">
+					<p>Make by <i class="far fa-copyright"></i> <span>HoangApple</span>. All rights Reserved</p>
+				</div>
+				<div class="col-lg-6 px-lg-0 col-md-6 col-12 text-right text_right_footer">
+					<img src="image/payment1.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="back-to-top">
+		<i class="fas fa-chevron-up"></i>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<script src="js/commonUse.js"></script>
+	<script src="js/cart.js"></script>
+</body>
+</html>

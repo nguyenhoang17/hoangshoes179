@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shopdetail</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/shopdetail.css">
+	<link rel="stylesheet" href="css/commonUse.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+	/>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row header">
+			<div class="row col-lg-12 px-lg-0 mx-lg-0 header__top d-md-none d-none d-lg-flex">
+				<div class="col-lg-8 px-lg-0 mx-lg-auto row header__top__container">
+					<div class="col-lg-6 px-lg-0 text-left">
+						<p>Free Delivery: Take advantage of our times to save event</p>
+					</div>
+					<div class="col-lg-6 px-lg-0 text-right">
+						<ul>
+							<li>Select Language <i class="fas fa-chevron-down"></i></li>
+							<li>Select Currency <i class="fas fa-chevron-down"></i></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-8 px-lg-0 my-lg-2 mx-lg-auto col-md-12 my-md-2 mx-md-auto col-12 my-2 mx-auto row header__center__container">
+				<div class="col-lg-3 px-lg-0 col-md-6 px-md-0 col-6 px-0 header__center__container__logo">
+					<img src="image/logo.png" alt="">
+				</div>
+				<div class="col-lg-6 px-lg-0 d-lg-block d-md-none d-none header__center__container__menu">
+					<nav>
+						<ul class="">
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="shop.html" target="">SHOP <i class="fas fa-chevron-down"></i></a>
+								<ul>
+									<li><a href="shopdetail.html">Shop Detail</a></li>
+									<li><a href="cart.html">Cart</a></li>
+									<li><a href="checkout.html">Check Out</a></li>
+								</ul>
+							</li>
+							<li><a href="blog.html">BLOG <i class="fas fa-chevron-down"></i></a>
+								<ul>
+									<li><a href="blogdetail.html">Blog Detail</a></li>
+								</ul>
+							</li>
+							<li><a href="about.html">ABOUT</a></li>
+							<li><a href="q&a.html">Q&A</a></li>
+						</ul>
+						<div class="new new1">
+							<p>New <i class="fas fa-sort-down"></i></p>
+						</div>
+					</nav>
+				</div>
+				<div class="col-lg-3 px-lg-0 col-md-6 px-md-0 col-6 px-0 text-right header__center__container__icon">
+					<i class="fas fa-user-friends d-lg-inline-block d-md-none d-none"></i>
+					<div class="d-lg-inline-block d-md-none d-none fas_hear">
+						<i class="fas fa-heart"></i>
+						<div class="quantity qt1 d-lg-inline-block d-md-none d-none">9</div>
+					</div>
+					<div class="d-inline-block fas_shop">
+						<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+						<div class="quantity qt2">3</div>
+					</div>
+					<span class="bar"><i class="fas fa-bars d-lg-none d-md-inline-block d-inline-block"></i></span>
+				</div>
+			</div>
+			<div class="col-lg-8 px-lg-0 mx-lg-auto my-lg-4 col-md-12 mx-md-auto my-md-4 col-12 mx-auto my-4 row header__bottom__container">
+				<div class="col-lg-3 pl-lg-0 col-md-12 px-md-0 col-12 px-0 header__bottom__container_left">
+					<button><span class="list_category_item mr-lg-1 mr-md-1 mr-1"><i class="fas fa-align-left"></i></span> CATEGORIES</button>
+					<nav class="list_category">
+						<ul class="border border-top-0">
+							<li><a href="">Search terms</a></li>
+							<li><a href="">Advanced Search</a></li>
+							<li><a href="">Help & Faq</a></li>
+							<li><a href="">Store Location</a></li>
+							<li><a href="">Orders & Returns</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-lg-6 d-lg-block d-md-none d-none header__bottom__container_center">
+					<div class="search_container">
+						<input type="text" placeholder="Search product...">
+						<span><button><i class="fas fa-search"></i></button></span>
+					</div>
+				</div>
+				<div class="col-lg-3 pr-lg-0 d-md-none d-none d-lg-inline-block text-right header__bottom__container_right">
+					<p>Call Us: <strong>0395515962</strong></p>
+				</div>
+			</div>
+			<div class="d-lg-none menu_responsive">
+				<div class="menu__responsive__container animate__animated">
+					<span class="close"><i class="fas fa-times d-lg-none d-md-inline-block"></i></span>
+					<ul class="ul_select_res">
+						<li>Select Language <i class="fas fa-chevron-down"></i></li>
+						<li>Select Currency <i class="fas fa-chevron-down"></i></li>
+					</ul>
+					<div class="menu_res_btn">
+						<input type="text" placeholder="Search our store">
+						<button><i class="fas fa-search"></i></button>
+					</div>
+					<div class="icon_top_res">
+						<i class="fas fa-user-friends"></i>
+						<div class="d-inline-block fas_hear_res">
+						<i class="fas fa-heart"></i>
+						<div class="quantity_res qt1_res d-inline-block">9</div>
+						</div>
+						<div class="d-inline-block fas_shop_res">
+							<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+						<div class="quantity_res qt2_res">3</div>
+						</div>
+					</div>
+					<nav>
+						<ul class="">
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="shop.html">SHOP</a><span class="plus"><i class="fas fa-plus"></i></span><span class="minus"><i class="fas fa-minus"></i></span>
+								<ul class="ul_res2">
+									<li><a href="shopdetail.html">Shop Detail</a></li>
+									<li><a href="cart.html">Cart</a></li>
+									<li><a href="checkout.html">Check Out</a></li>
+								</ul>
+							</li>
+							<li><a href="blog.html">BLOG</a><span class="plus"><i class="fas fa-plus"></i></span><span class="minus"><i class="fas fa-minus"></i></span>
+								<ul class="ul_res2">
+									<li><a href="blogdetail.html">Blog Detail</a></li>
+								</ul>
+							</li>
+							<li><a href="about.html">ABOUT</a></li>
+							<li><a href="q&a.html">Q&A</a></li>
+						</ul>
+					</nav>
+					<div class="icon_bottom_res">
+						<div><a href="https://www.facebook.com/profile.php?id=100028911138578"><i class="fab fa-facebook-f"></i></a></div>
+						<div><i class="fab fa-twitter"></i></div>
+						<div><i class="fab fa-youtube"></i></div>
+						<div><i class="fab fa-google-plus-g"></i></div>
+						<div><i class="fab fa-instagram"></i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row main">
+			<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 px-0 mx-auto main_r1_shopdetail">
+				<p>Home > ShopDetail</p>
+			</div>
+			<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 px-0 mx-auto main_r2_shopdetail">
+				<div class="col-lg-8 px-lg-0 mx-lg-auto col-md-12 mx-md-auto col-12 mx-auto">
+					<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 px-0 mx-auto row">
+						<div class="col-lg-5 px-lg-0 mx-auto col-md-5 px-md-0 col-12 px-0 image_product">
+							<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 px-0 mx-auto row image_product1">
+							<div class="img_pro item">
+								<img src="image/anh22.jpg" alt="">
+							</div>
+							<!-- <div class="img_pro item">
+								<img src="image/anh23.jpg" alt="">
+							</div>
+							<div class="img_pro item">
+								<img src="image/anh24.jpg" alt="">
+							</div>
+							<div class="img_pro item">
+								<img src="image/anh25.jpg" alt="">
+							</div> -->
+							</div>
+							<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 px-0 mx-auto row slide_shopdetal owl-carousel owl-theme" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+								<div class="img_slide item">
+									<img src="image/anh22.jpg" alt="">
+								</div>
+								<div class="img_slide item">
+									<img src="image/anh23.jpg" alt="">
+								</div>
+								<div class="img_slide item">
+									<img src="image/anh24.jpg" alt="">
+								</div>
+								<div class="img_slide item">
+									<img src="image/anh25.jpg" alt="">
+								</div>
+								
+							</div>
+						</div>
+						<div class="col-lg-7 px-lg-1 mx-auto col-md-7 px-md-1 mx-auto col-12 px-0 product_info">
+							<div class="col-lg-12 px-lg-1 mx-auto col-md-12 px-md-1 mx-auto col-12 px-0 pi_top">
+								<h4>Nike Shoes</h4>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<h5>$24.00<em>$30.00</em> <button>-30%</button></h5>
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique sint assumenda impedit sapiente velit blanditiis ex sed! Maxime nemo magni officiis nobis libero ratione quasi ullam error soluta quae. Odio suscipit maxime beatae quos ad laudantium dolorum necessitatibus consequuntur dolorem voluptatem veritatis deserunt porro magni repellat animi, fuga earum minus.</p>
+							</div>
+							<div class="col-lg-12 col-md-12 col-12 mx-auto pi_bottom">
+								<i class="fas fa-check-circle"></i> <span>199 IN STOCK</span>
+								<ul>
+									<li><i class="fas fa-money-check-alt"></i><span>Side Guide</span></li>
+									<li><i class="fas fa-truck"></i><span>Shipping</span></li>
+									<li><i class="far fa-envelope"></i><span>Ask About This Product </span></li>
+								</ul>
+								<p>Quantity: <input class="text-center" min="1" type="number" placeholder="1"></p>
+								<a href="cart.html"><button class="pb_btn">Add to cart</button><button class=" icon_btn"><i class="fas fa-heart"></i></button></a><br>
+								<p><input type="checkbox"> I agree wodth the term and condition</p>
+								<a href="checkout.html"><button class="pb_btn">BUY IT NOW</button></a>
+								<p>Guaranteed Safe Checkout</p>
+								<img src="image/payment1.png" alt="">
+								<p class="share">Share:</p>
+								<button class="icon"><i class="fab fa-facebook-f"></i></button>
+								<button class="icon"><i class="fab fa-twitter"></i></button>
+								<button class="icon"><i class="fab fa-pinterest-p"></i></button>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12 px-lg-0 mx-lg-auto mt-lg-3 col-md-12 mx-md-auto mt-md-3 col-12 mx-auto mt-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+				<div class="col-lg-8 px-lg-0 mx-lg-auto col-md-12 mx-md-auto col-12 mx-auto px-0 shopdetail_text_title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+					<ul>
+						<li class="li_active">Description</li>
+						<li>Product details</li>
+						<li>Reviews</li>
+					</ul>
+				</div>
+				<div class="col-lg-8 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 px-0 mx-auto shopdetail_text shopdetail_text1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ea. Nobis dolor facilis repellendus unde, amet sapiente, adipisci optio fugiat commodi iusto distinctio soluta voluptatum numquam, dicta! Labore dignissimos cum, et aliquid molestiae, voluptates inventore, quasi, sed quis assumenda temporibus optio exercitationem! Ex officia at reprehenderit consequuntur suscipit possimus eligendi laudantium recusandae amet, id. Exercitationem ratione, ducimus? Odit quasi, ipsum quis blanditiis, dolorem, saepe consectetur laboriosam earum mollitia ducimus amet praesentium odio modi quibusdam. Rerum, quasi mollitia necessitatibus provident adipisci rem odit debitis cum, facere, alias ut consectetur, eius quis. Alias expedita, doloremque deleniti perspiciatis esse impedit, tempora voluptatibus sint!</p>
+					<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Iste culpa sit fuga, distinctio officia aperiam maiores magnam aliquid voluptatibus optio veniam omnis aspernatur exercitationem animi at maxime assumenda perferendis asperiores.</p>
+					<p class="p_title">Product Highlight</p>
+					<ul>
+						<li> SCSI (Small Computer System Interface)</li>
+						<li>Integrated Drive Electronics</li>
+						<li>OS Support (Operating System Support)</li>
+						<li>RPM (Revolutions Per Minute)</li>
+						<li>IT (Information Technology)</li>
+						<li>COM (Computer Output on Micro)</li>
+						<li>CMOS (Complementary Metal Oxide Semiconductor)</li>
+						<li>CPU (Central Processing Unit)</li>
+						<li>I/O (Input/Output)</li>
+						<li>ICT (Information Communication Technology)</li>
+						<li>i3-9100f, i3-10100, i5-10400, i5-10500, i5-10600…</li>
+					</ul>
+				</div>
+				<div class="col-lg-8 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 px-0 mx-auto shopdetail_text shopdetail_text2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+					<p>Hoang ipsum dolor sit amet consectetur adipisicing elit. Impedit aut, ullam voluptate iusto sapiente corporis molestiae officiis aliquam facilis corrupti minima porro praesentium quos nostrum! Corrupti non in incidunt, quaerat. Eveniet natus possimus, enim commodi, culpa quia voluptates non corporis. Quae eius quis ad vel esse dolorem aliquam aliquid praesentium nam ullam mollitia exercitationem fuga, id corporis iure inventore iusto qui facere tempora? Asperiores ipsa a voluptatem officia aut facilis vel, saepe, sit, libero, deleniti aliquid! Voluptate, ea? Qui libero natus quisquam eum ut accusamus.</p>
+					<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Iste culpa sit fuga, distinctio officia aperiam maiores magnam aliquid voluptatibus optio veniam omnis aspernatur exercitationem animi at maxime assumenda perferendis asperiores.</p>
+					<p class="p_title">Product Highlight</p>
+					<ul>
+						<li> SCSI (Small Computer System Interface)</li>
+						<li>Integrated Drive Electronics</li>
+						<li>OS Support (Operating System Support)</li>
+						<li>RPM (Revolutions Per Minute)</li>
+						<li>IT (Information Technology)</li>
+						<li>COM (Computer Output on Micro)</li>
+						<li>CMOS (Complementary Metal Oxide Semiconductor)</li>
+						<li>CPU (Central Processing Unit)</li>
+						<li>I/O (Input/Output)</li>
+						<li>ICT (Information Communication Technology)</li>
+						<li>i3-9100f, i3-10100, i5-10400, i5-10500, i5-10600…</li>
+					</ul>
+				</div>
+				<div class="col-lg-8 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 px-0 mx-auto shopdetail_text shopdetail_text3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+					<p>Dao Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eligendi molestias, iste, in neque voluptatum iusto unde error obcaecati. Numquam porro voluptatem nulla mollitia optio voluptate accusamus animi saepe similique facilis quae nostrum nisi fugit quaerat culpa ea officiis explicabo autem iste deleniti sapiente esse, corporis repellendus incidunt praesentium. Repudiandae delectus voluptatibus dolor sint culpa voluptates labore corporis ab obcaecati aperiam omnis quibusdam similique officia sapiente deleniti perspiciatis, ex. Saepe, fugit delectus minus facilis officia nihil? Deserunt obcaecati perferendis cumque totam illum, dolorem commodi, esse quae. Debitis dicta nesciunt esse natus doloribus adipisci amet quis, iure harum necessitatibus.</p>
+					<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Iste culpa sit fuga, distinctio officia aperiam maiores magnam aliquid voluptatibus optio veniam omnis aspernatur exercitationem animi at maxime assumenda perferendis asperiores.</p>
+					<p class="p_title">Product Highlight</p>
+					<ul>
+						<li> SCSI (Small Computer System Interface)</li>
+						<li>Integrated Drive Electronics</li>
+						<li>OS Support (Operating System Support)</li>
+						<li>RPM (Revolutions Per Minute)</li>
+						<li>IT (Information Technology)</li>
+						<li>COM (Computer Output on Micro)</li>
+						<li>CMOS (Complementary Metal Oxide Semiconductor)</li>
+						<li>CPU (Central Processing Unit)</li>
+						<li>I/O (Input/Output)</li>
+						<li>ICT (Information Communication Technology)</li>
+						<li>i3-9100f, i3-10100, i5-10400, i5-10500, i5-10600…</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-12 px-lg-0 col-md-12 col-12 row mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+				<div class="col-lg-8 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 px-0 mx-auto row related_product" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+					<div class="col-lg-6 px-lg-0 col-md-6 px-md-0 col-12 px-0 rp_left" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+						<h5>Related Products</h5>
+					</div>
+					<div class="col-lg-6 px-lg-0 col-md-6 px-md-0 col-12 px-0 text-right rp_right" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+						<a href="shop.html"><button>More Products <i class="fas fa-angle-right"></i></button></a>
+					</div>
+				</div>
+				<div class="col-lg-8 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 px-0 mx-auto row related_product_bottom" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+					<div class="col-lg-12 px-lg-0 mx-lg-auto col-md-12 px-md-0 mx-md-auto col-12 px-0 mx-auto row rpbt owl-carousel owl-theme" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+						<div class=" text-center rpbt_item rpbt_item1 item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<img src="image/anh21.jpg" alt="">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<p>Nike Shoes</p>
+							<p class="rpprice">24.00$<span> 30.00$</span></p>
+							<button>-20%</button>
+							<div class="rpbt_item_icon">
+								<i class="fas fa-cart-plus"></i>
+								<i class="fas fa-heart"></i>
+								<i class="fas fa-eye"></i>
+							</div>
+						</div>
+						<div class=" text-center rpbt_item item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<img src="image/anh20.jpg" alt="">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<p>AP_bounce Shoes</p>
+							<p class="rpprice">24.00$<span> 30.00$</span></p>
+							<button>-20%</button>
+							<div class="rpbt_item_icon">
+								<i class="fas fa-cart-plus"></i>
+								<i class="fas fa-heart"></i>
+								<i class="fas fa-eye"></i>
+							</div>
+						</div>
+						<div class=" text-center rpbt_item item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<img src="image/anh18.jpg" alt="">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<p>Gucci Shoes</p>
+							<p class="rpprice">24.00$<span> 30.00$</span></p>
+							<button>-20%</button>
+							<div class="rpbt_item_icon">
+								<i class="fas fa-cart-plus"></i>
+								<i class="fas fa-heart"></i>
+								<i class="fas fa-eye"></i>
+							</div>
+						</div>
+						<div class=" text-center rpbt_item rpbt_item4 item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+							<img src="image/anh19.jpg" alt="">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<p>Ultra Boost Shoes</p>
+							<p class="rpprice">24.00$<span> 30.00$</span></p>
+							<button>-20%</button>
+							<div class="rpbt_item_icon">
+								<i class="fas fa-cart-plus"></i>
+								<i class="fas fa-heart"></i>
+								<i class="fas fa-eye"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-12 px-lg-0 col-md-12 col-12 row mx-auto more_logo" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+				<div class="col-lg-8 mx-lg-auto col-md-12 col-12 more_logo_container owl-carousel owl-theme" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+					<img class="mlc_items1 item" src="image/adidas.png" alt="">
+					<img class="item" src="image/converse_logo.png" alt="">
+					<img class="item" src="image/gucci_logo.jpg" alt="">
+					<img class="item" src="image/nike_logo.jpg" alt="">
+					<img class="item" src="image/puma_logo.jpg" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div class="row" id="footer" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="80">
+			<div class="col-lg-8 px-lg-0 mx-lg-auto col-md-12 mx-auto col-12 mx-md-auto row footer__top">
+				<div class="col-lg-4 px-lg-0 col-md-5 px-lg-0 col-12 px-0">
+					<img src="image/logo.png" alt="">
+					<ul>
+						<li><i class="fas fa-home"></i> TrauQuy street, Gia Lam, Ha Noi</li>
+						<li><i class="fas fa-phone-alt"></i> +0395515962</li>
+						<li><i class="fas fa-envelope"></i> hoangga179tb@gmail.com</li>
+					</ul>
+					<div class="footer__top_icon">
+						<i class="fab fa-facebook-f"></i>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-youtube"></i>
+						<i class="fab fa-google-plus-g"></i>
+					</div>
+				</div>
+				<div class="col-lg-2 px-lg-0 col-md-3 px-md-0 col-12 px-0">
+					<h6>INFORMATION</h6>
+					<ul>
+						<li>Information</li>
+						<li>Advanced Search</li>
+						<li>Helps & Faq</li>
+						<li>Store Location</li>
+						<li>Orders & Returns</li>
+						<li>Deliveries</li>
+						<li>Refund & Returns</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 px-lg-0 col-md-3 px-md-0 col-12 px-0">
+					<h6>OUR COMPANY</h6>
+					<ul>
+						<li>Delivery</li>
+						<li>Legan Notice</li>
+						<li>Sitemap</li>
+						<li>Secure Payment</li>
+						<li>Blog</li>
+						<li>About Us</li>
+						<li>Carrers</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 px-lg-0 col-md-3 mt-md-4 mt-lg-0 col-12 px-0">
+					<h6>MY ACCOUNT</h6>
+					<ul>
+						<li>Information</li>
+						<li>Advanced Search</li>
+						<li>Helps & Faq</li>
+						<li>Store Location</li>
+						<li>Orders & Returns</li>
+						<li>Deliveries</li>
+						<li>Refund & Returns</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 px-lg-0 col-md-3 px-md-0 mt-md-4 mt-lg-0 col-12 px-0">
+					<h6>OPENING TIME</h6>
+					<ul>
+						<li>Mon-Fri: 8-10PM</li>
+						<li>Sat: 9-8PM</li>
+						<li>Suns: 14-18PM</li>
+						<li>Mon-Fri: 8-10PM</li>
+						<li>We Work Holidays</li>
+						<li><b>Download App</b></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-8 px-lg-0 mx-lg-auto col-md-12 mx-md-auto col-12 mx-auto row footer__bottom">
+				<div class="col-lg-6 px-lg-0 col-md-6 col-12">
+					<p>Make by <i class="far fa-copyright"></i> <span>HoangApple</span>. All rights Reserved</p>
+				</div>
+				<div class="col-lg-6 px-lg-0 col-md-6 col-12 text-right text_right_footer">
+					<img src="image/payment1.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="back-to-top">
+		<i class="fas fa-chevron-up"></i>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<script src="js/commonUse.js"></script>
+	<script src="js/shopdetail.js"></script>
+</body>
+</html>
